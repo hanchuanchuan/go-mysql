@@ -12,6 +12,11 @@ import (
 	. "github.com/hanchuanchuan/go-mysql/mysql"
 	"github.com/pingcap/errors"
 	"github.com/shopspring/decimal"
+<<<<<<< HEAD
+=======
+	log "github.com/sirupsen/logrus"
+	. "github.com/hanchuanchuan/go-mysql/mysql"
+>>>>>>> update: 更新日志组件,调整为logrus
 	"github.com/siddontang/go/hack"
 	log "github.com/sirupsen/logrus"
 )

@@ -2,6 +2,11 @@ package replication
 
 import (
 	"context"
+<<<<<<< HEAD
+=======
+	"github.com/pingcap/errors"
+	log "github.com/sirupsen/logrus"
+>>>>>>> update: 更新日志组件,调整为logrus
 	"time"
 
 	"github.com/pingcap/errors"

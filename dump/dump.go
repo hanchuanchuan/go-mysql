@@ -7,6 +7,11 @@ import (
 	"os/exec"
 	"strings"
 
+<<<<<<< HEAD
+=======
+	"github.com/pingcap/errors"
+	log "github.com/sirupsen/logrus"
+>>>>>>> update: 更新日志组件,调整为logrus
 	. "github.com/hanchuanchuan/go-mysql/mysql"
 	"github.com/pingcap/errors"
 	log "github.com/sirupsen/logrus"

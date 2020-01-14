@@ -3,6 +3,10 @@ package main
 import (
 	"net"
 
+<<<<<<< HEAD
+=======
+	log "github.com/sirupsen/logrus"
+>>>>>>> update: 更新日志组件,调整为logrus
 	"github.com/hanchuanchuan/go-mysql/mysql"
 	"github.com/hanchuanchuan/go-mysql/server"
 	"github.com/hanchuanchuan/go-mysql/test_util/test_keys"

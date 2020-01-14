@@ -10,6 +10,12 @@ import (
 	"sync"
 	"time"
 
+<<<<<<< HEAD
+=======
+	"github.com/pingcap/errors"
+	uuid "github.com/satori/go.uuid"
+	log "github.com/sirupsen/logrus"
+>>>>>>> update: 更新日志组件,调整为logrus
 	"github.com/hanchuanchuan/go-mysql/client"
 	. "github.com/hanchuanchuan/go-mysql/mysql"
 	"github.com/pingcap/errors"
