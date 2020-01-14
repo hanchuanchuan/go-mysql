@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/siddontang/go-log/log"
+	log "github.com/sirupsen/logrus"
 	"github.com/siddontang/go/hack"
 )
 

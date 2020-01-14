@@ -8,7 +8,7 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/ast"
 	uuid "github.com/satori/go.uuid"
-	"github.com/siddontang/go-log/log"
+	log "github.com/sirupsen/logrus"
 	"github.com/hanchuanchuan/go-mysql/mysql"
 	"github.com/hanchuanchuan/go-mysql/replication"
 	"github.com/hanchuanchuan/go-mysql/schema"

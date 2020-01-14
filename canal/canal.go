@@ -14,7 +14,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser"
-	"github.com/siddontang/go-log/log"
+	log "github.com/sirupsen/logrus"
 	"github.com/hanchuanchuan/go-mysql/client"
 	"github.com/hanchuanchuan/go-mysql/dump"
 	"github.com/hanchuanchuan/go-mysql/mysql"
