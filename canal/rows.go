@@ -3,8 +3,8 @@ package canal
 import (
 	"fmt"
 
-	"github.com/siddontang/go-mysql/replication"
-	"github.com/siddontang/go-mysql/schema"
+	"github.com/hanchuanchuan/go-mysql/replication"
+	"github.com/hanchuanchuan/go-mysql/schema"
 )
 
 // The action name for sync.

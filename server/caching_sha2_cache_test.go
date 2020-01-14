@@ -13,8 +13,8 @@ import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/errors"
 	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/go-mysql/mysql"
-	"github.com/siddontang/go-mysql/test_util/test_keys"
+	"github.com/hanchuanchuan/go-mysql/mysql"
+	"github.com/hanchuanchuan/go-mysql/test_util/test_keys"
 )
 
 var delay = 50

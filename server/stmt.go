@@ -7,7 +7,7 @@ import (
 	"strconv"
 
 	"github.com/pingcap/errors"
-	. "github.com/siddontang/go-mysql/mysql"
+	. "github.com/hanchuanchuan/go-mysql/mysql"
 )
 
 var paramFieldData []byte

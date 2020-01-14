@@ -9,7 +9,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/siddontang/go-log/log"
-	. "github.com/siddontang/go-mysql/mysql"
+	. "github.com/hanchuanchuan/go-mysql/mysql"
 )
 
 // Unlick mysqldump, Dumper is designed for parsing and syning data easily.
