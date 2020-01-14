@@ -7,9 +7,9 @@ import (
 	"encoding/binary"
 	"encoding/pem"
 
+	. "github.com/hanchuanchuan/go-mysql/mysql"
+	"github.com/hanchuanchuan/go-mysql/utils"
 	"github.com/pingcap/errors"
-	. "github.com/siddontang/go-mysql/mysql"
-	"github.com/siddontang/go-mysql/utils"
 	"github.com/siddontang/go/hack"
 )
 

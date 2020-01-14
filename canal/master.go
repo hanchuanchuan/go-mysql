@@ -3,8 +3,8 @@ package canal
 import (
 	"sync"
 
-	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/go-mysql/mysql"
+	"github.com/hanchuanchuan/go-mysql/mysql"
+	log "github.com/sirupsen/logrus"
 )
 
 type masterInfo struct {

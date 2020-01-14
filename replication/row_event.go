@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"time"
 
+	. "github.com/hanchuanchuan/go-mysql/mysql"
 	"github.com/pingcap/errors"
 	"github.com/shopspring/decimal"
-	"github.com/siddontang/go-log/log"
-	. "github.com/siddontang/go-mysql/mysql"
 	"github.com/siddontang/go/hack"
+	log "github.com/sirupsen/logrus"
 )
 
 var errMissingTableMapEvent = errors.New("invalid table id, no corresponding table map event")

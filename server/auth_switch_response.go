@@ -10,7 +10,7 @@ import (
 	"fmt"
 
 	"github.com/pingcap/errors"
-	. "github.com/siddontang/go-mysql/mysql"
+	. "github.com/hanchuanchuan/go-mysql/mysql"
 )
 
 func (c *Conn) handleAuthSwitchResponse() error {
