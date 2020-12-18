@@ -7,10 +7,6 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-<<<<<<< HEAD
-=======
-	log "github.com/sirupsen/logrus"
->>>>>>> update: 更新日志组件,调整为logrus
 	"github.com/siddontang/go/hack"
 	log "github.com/sirupsen/logrus"
 )

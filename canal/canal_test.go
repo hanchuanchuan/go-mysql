@@ -12,11 +12,6 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser"
 	log "github.com/sirupsen/logrus"
-<<<<<<< HEAD
-=======
-	"github.com/hanchuanchuan/go-mysql/mysql"
-	"github.com/hanchuanchuan/go-mysql/replication"
->>>>>>> update: 更新日志组件,调整为logrus
 )
 
 var testHost = flag.String("host", "127.0.0.1", "MySQL host")

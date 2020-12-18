@@ -10,12 +10,6 @@ import (
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
-<<<<<<< HEAD
-=======
-	. "github.com/pingcap/check"
-	"github.com/pingcap/errors"
-	log "github.com/sirupsen/logrus"
->>>>>>> update: 更新日志组件,调整为logrus
 	"github.com/hanchuanchuan/go-mysql/mysql"
 	"github.com/hanchuanchuan/go-mysql/test_util/test_keys"
 	. "github.com/pingcap/check"

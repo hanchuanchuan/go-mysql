@@ -1,19 +1,14 @@
 package main
 
 import (
+	"crypto/tls"
 	"net"
+	"time"
 
-<<<<<<< HEAD
-=======
-	log "github.com/sirupsen/logrus"
->>>>>>> update: 更新日志组件,调整为logrus
 	"github.com/hanchuanchuan/go-mysql/mysql"
 	"github.com/hanchuanchuan/go-mysql/server"
 	"github.com/hanchuanchuan/go-mysql/test_util/test_keys"
 	log "github.com/sirupsen/logrus"
-
-	"crypto/tls"
-	"time"
 )
 
 type RemoteThrottleProvider struct {

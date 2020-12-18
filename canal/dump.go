@@ -7,12 +7,6 @@ import (
 	"strings"
 	"time"
 
-<<<<<<< HEAD
-=======
-	"github.com/pingcap/errors"
-	"github.com/shopspring/decimal"
-	log "github.com/sirupsen/logrus"
->>>>>>> update: 更新日志组件,调整为logrus
 	"github.com/hanchuanchuan/go-mysql/mysql"
 	"github.com/hanchuanchuan/go-mysql/schema"
 	"github.com/pingcap/errors"

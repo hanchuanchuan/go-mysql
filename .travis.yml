@@ -1,14 +1,8 @@
 language: go
 
 go:
-<<<<<<< HEAD
-  - "1.11"
   - "1.14"
   - tip
-=======
-  - "1.12"
->>>>>>> update: 更新日志组件,调整为logrus
-
 services:
     mysql
 
